@@ -1,0 +1,15 @@
+{
+  "name": "crypto-program",
+  "version": "1.0.0",
+  "description": "Um programa simples para criptografar e descriptografar texto usando uma senha",
+  "main": "encrypt.js",
+  "scripts": {
+    "encrypt": "node encrypt.js",
+    "decrypt": "node decrypt.js"
+  },
+  "author": "http://github.com/distu",
+  "license": "MIT",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
